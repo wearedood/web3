@@ -131,7 +131,8 @@ export class BaseBridge {
 }
 
 // Base DeFi Integration
-export class BaseDeFi {
+export class 
+  {
   constructor(baseProvider) {
     this.baseProvider = baseProvider;
     this.protocols = {
@@ -142,7 +143,8 @@ export class BaseDeFi {
   }
 
   // Swap tokens using Uniswap V3
-  async swapTokens(tokenIn, tokenOut, amountIn, slippage = 0.5) {
+  async 
+    (tokenIn, tokenOut, amountIn, slippage = 0.5) {
     const uniswapRouter = this.baseProvider.getContract(
       this.protocols.uniswap,
       [
